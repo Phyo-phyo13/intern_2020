@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Week0 javascript assignment 3</title>
+	<style type="text/css">
+		h1{
+			text-align: center;
+			font-style: italic;
+			font-family: cursive;
+		}
+		label{
+			color: green;
+
+		}
+		button{
+			color: green;
+			text-align: center;
+			vertical-align: middle;
+		}
+		body{background-color: pink;}
+	</style>
+</head>
+<body>
+<h1>Calculating Discount</h1>
+<div >
+<label>Old price</label>
+<input type="text" id="oldprice" placeholder="oldprice">
+</div>
+<br>
+<div>
+<label>Discount</label>
+<input type="text" id="discount" placeholder="discount">
+</div><br>
+<div>
+<div>
+
+<button onclick="Discount()">Calculate</button>
+</div>
+<br>
+<label>New Price</label>
+<input type="text" id="newprice">
+</div>
+
+<script type="text/javascript">
+	function Discount(){
+		var a=Number(document.getElementById('oldprice').value);
+		var b=Number(document.getElementById('discount').value);
+		var result=a-(a*b);
+		document.getElementById("newprice").value=result.toFixed(2);
+	}
+</script>
+</body>
+</html>
