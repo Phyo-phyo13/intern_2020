@@ -1,0 +1,33 @@
+2020-08-19 20:27:10.505  INFO 12128 --- [restartedMain] c.intern.test.Internproject1Application  : Starting Internproject1Application on DESKTOP-S3TD1L8 with PID 12128 (C:\Users\User\eclipse-workspace1\internproject-1\target\classes started by User in C:\Users\User\eclipse-workspace1\internproject-1)
+2020-08-19 20:27:10.516  INFO 12128 --- [restartedMain] c.intern.test.Internproject1Application  : No active profile set, falling back to default profiles: default
+2020-08-19 20:27:10.620  INFO 12128 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-19 20:27:10.620  INFO 12128 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-19 20:27:12.140  INFO 12128 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$9d75ea3f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-19 20:27:12.216  INFO 12128 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2020-08-19 20:27:12.745  INFO 12128 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-08-19 20:27:12.759  INFO 12128 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-19 20:27:12.760  INFO 12128 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-19 20:27:12.898  INFO 12128 --- [restartedMain] o.a.c.c.C.[.[localhost].[/intern]        : Initializing Spring embedded WebApplicationContext
+2020-08-19 20:27:12.899  INFO 12128 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2278 ms
+2020-08-19 20:27:13.901  INFO 12128 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-19 20:27:14.942  WARN 12128 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-08-19 20:27:14.986  WARN 12128 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2020-08-19 20:27:14.989  INFO 12128 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-19 20:27:14.995  INFO 12128 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-08-19 20:27:15.013  INFO 12128 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-08-19 20:27:15.022 ERROR 12128 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
